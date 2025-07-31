@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: blueviolet;
+}
+h1 + p{
+    background-color: red;
+}
+ a{
+    background-color: beige;
+    text-decoration: none;
+ }
+ a:hover{
+    color: blue;
+ }
+ ul li:hover{
+    font-size: 25px;
+ }
+ ul li:nth-child{
+    font-style: italic;
+ }
+ ul li::before{
+    font-style: oblique;
+ }
+ ul li::after{
+    color: aqua;
+ }
+ a::after{
+    content:"😂"
+ }
